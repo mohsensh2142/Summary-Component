@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary Component</title>
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lora:ital@0;1&family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="hero">
+            <img src="./images/illustration-hero.svg" alt="A girl listening to music">
+        </div>
+        <div class="text-box">
+            <h2 class="title">Order Summary</h2>
+            <p class="subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any
+                device anywhere you like!</p>
+        </div>
+        <div class="plan-box">
+            <div class="plan-box-left">
+                <img src="./images/icon-music.svg" alt="Music Icon" class="music-icon">
+                <div class="music-plan">
+                    <h5 class="annual-plan">Annual Plan</h5>
+                    <p class="annual-plan-price">$59.99/year</p>
+                </div>
+            </div>
+            <a href="#" class="change-link">Change</a>
+        </div>
+        <button class="payment-button">Proceed to Payment</button>
+        <a href="#" class="cancel-button">Cancel Order</a>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    padding: 20px 0 20px 0;
+}
+
+.container {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 18px 0px #504f4f;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+}
+
+.title,
+p,
+.plan-box,
+.payment-button {
+    margin: 12px 0 12px;
+}
+
+.subtitle {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.plan-box-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music-plan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+.music-icon {
+    width: 30%;
+    height: 30%;
+}
+
+.annual-plan {
+    margin-top: 7px;
+    text-align: left;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-price {
+    color: hsl(224, 23%, 55%);
+    margin-top: 2px;
+}
+
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    padding: 17px 40px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: 0 0 7px 0 hsl(245, 75%, 52%);
+}
+
+.payment-button:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.742);
+}
+
+.cancel-button {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    margin: 12px 0 15px;
+}
+
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
